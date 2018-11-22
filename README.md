@@ -39,7 +39,7 @@ df = bbg.HistoData(['CAC FP Equity', 'CACX LN Equity'],
                    datetime(2018,12,31))
 ```
 
-* More examples with [IPython Notebook](blp-api-pandas-wrapper/blp_pandas examples.ipynb)
+* More examples with [IPython Notebook](https://github.com/teddy-ambona/blp-api-pandas-wrapper/blob/master/blp_pandas%20examples.ipynb)
 
 ## Requirements
 
