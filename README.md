@@ -7,7 +7,7 @@ Python simplified library for interacting with the Bloomberg API
 ### Install blpPandas
 
 ```
-None
+pip install git+https://github.com/teddy-ambona/blp_pandas.git
 ```
 
 
