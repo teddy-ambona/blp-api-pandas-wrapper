@@ -7,7 +7,7 @@ setup(
     author='Teddy Ambona',
     author_email='teddy.ambona@gmail.com',
     packages=['blp_pandas'],
-    install_requires=['blpapi', 'pandas', 'numpy'],
+    install_requires=['pandas', 'numpy'],
     version='0.1',
     license="""
             Copyright 2012. Bloomberg Finance L.P.
