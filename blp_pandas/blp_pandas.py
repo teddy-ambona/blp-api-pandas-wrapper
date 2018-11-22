@@ -55,18 +55,19 @@ class BLP():
         # Start a Session
         if not self.session.start():
             print("Failed to start session.")
-            return
+            return None
 
 
     def printErrorInfo(self, leadingStr, errorInfo):
         print ("%s%s (%s)" % (leadingStr, errorInfo.getElementAsString(self.CATEGORY),
                              errorInfo.getElementAsString(self.MESSAGE)))
+        return None
 
     def check_service(self, service):
         # Open service to get historical data from
         if not (self.session.openService(service)):
             print("Failed to open {}".format(service))
-            return
+            return None
 
     def set_other_param(self, other_param, request):
         if other_param != None:
@@ -118,6 +119,7 @@ class BLP():
             elif self.boo_getHistoData:
                 self.process_msg_histodata(msg)
 
+        return None
 
     def get_intradaybar(self, security, event, start_date, end_date, barInterval, other_param):
         self.boo_getIntradayBar = True
@@ -170,6 +172,7 @@ class BLP():
 
             self.dictData[time] = [open, high, low, close, volume, numEvents, value]  # Increment rows in a dictionary
 
+        return None
 
     def get_refdata(self, security, fields, overrides, other_param):
         self.boo_getRefData = True
@@ -359,6 +362,8 @@ class BLP():
                     extra_data.append(None)
 
             self.dictData[time] += extra_data
+
+        return None
 
 def IntradayBar(security, event, start_date, end_date, barInterval, other_param=None):
 
