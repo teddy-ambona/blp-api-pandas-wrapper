@@ -1,8 +1,8 @@
-# blp_pandas
+![alt text](https://github.com/teddy-ambona/blp-api-pandas-wrapper/blob/master/Bloomberg_Logo.png?raw=true) # blp_pandas
 
 ## Quickstart
 
-Python minimalist library for interacting with the Bloomberg API
+Python simplified library for interacting with the Bloomberg API
 
 ### Install blpPandas
 
