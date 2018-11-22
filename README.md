@@ -44,9 +44,9 @@ df = bbg.HistoData(['CAC FP Equity', 'CACX LN Equity'],
 
 ## Requirements
 
-* Bloomberg API
+* blpapi
 * python 3
-* pandas
+* pandas, numpy
 
 ## License
 Copyright 2012. Bloomberg Finance L.P.
