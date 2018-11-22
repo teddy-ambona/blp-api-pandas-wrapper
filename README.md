@@ -1,4 +1,5 @@
-# ![alt text](https://github.com/teddy-ambona/blp-api-pandas-wrapper/blob/master/bloomberg_logo.png?raw=true) [blp_pandas](https://github.com/teddy-ambona/blp-api-pandas-wrapper/blob/master/blp_pandas%20examples.ipynb)
+# ![alt text](https://github.com/teddy-ambona/blp-api-pandas-wrapper/blob/master/bloomberg_logo.png?raw=true) 
+[blp_pandas](https://github.com/teddy-ambona/blp-api-pandas-wrapper/blob/master/blp_pandas%20examples.ipynb)
 
 ## Quickstart
 
