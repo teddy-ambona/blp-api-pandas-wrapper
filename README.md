@@ -1,4 +1,4 @@
-![alt text](https://github.com/teddy-ambona/blp-api-pandas-wrapper/blob/master/bloomberg_logo.png?raw=true) # blp_pandas
+# [![alt text](https://github.com/teddy-ambona/blp-api-pandas-wrapper/blob/master/bloomberg_logo.png?raw=true)] [blp_pandas]
 
 ## Quickstart
 
