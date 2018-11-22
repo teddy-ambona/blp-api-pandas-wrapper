@@ -6,16 +6,19 @@ import numpy as np
 def check_date_time(value):
     if not isinstance(value, datetime.datetime):
         raise ValueError('The dates have to be datetime objects')
+    return None
 
 def check_overrides(value):
     if value != None:
         if type(value) != dict:
             raise ValueError('The overrides has to be a dictionary')
+    return None
 
 def check_other_param(value):
     if value != None:
         if type(value) != dict:
             raise ValueError('The other_param argument has to be a dictionary')
+    return None
 
 class BLP():
 
@@ -67,7 +70,7 @@ class BLP():
         # Open service to get historical data from
         if not (self.session.openService(service)):
             print("Failed to open {}".format(service))
-            return None
+        return None
 
     def set_other_param(self, other_param, request):
         if other_param != None:
